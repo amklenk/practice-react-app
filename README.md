@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## React Description Notes
+- Create an app with npx create-react-app appname
+- React works on components, a div at a time with its children
+- App.js is the main file to run the code for the app, it contains the 'root' div (see index.html in public directory)
+- Each component file has its own index.js and a style sheet for individual styling
+- Each component is then imported to App.js and put in the root div, or into one or the other to then be imported to App.js (Ex. the NavBar is rendered in Header which is rendered in App)
+- Run the app with npm start and do not turn it off, the app will update as changes are made
+- Use ES6!
+- Props allow us to pass information, ex. passing context.user (like req.session)
+- React has it's own version of Bootstrap that you npm and then import the components you want to use
+
 ## Available Scripts
 
 In the project directory, you can run:
